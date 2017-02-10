@@ -18,7 +18,7 @@ $ go run paralleism_go.go
 
 #### Ruby
 
-Built on Ruby 2.3.1 on MacOS. Process forking will only work on *nix systems
+Built on Ruby 2.3.1 on MacOS. Process forking example will only work on \**nix* systems. Behaviour may be different in Ruby < 1.9.
 
 ```
 $ ruby parallelism_ruby.rb
@@ -26,7 +26,7 @@ $ ruby parallelism_ruby.rb
 
 ### Elixir 
 
-Built on OTP 19, Elixir 1.4.1 (the necessary async_stream function does not exist on Elixir) on MacOS
+Built on OTP 19, Elixir 1.4.1 (the necessary async_stream function does not exist on Elixir < 1.4) on MacOS
 
 ```
 $ elixir -r parallelism_elixir.ex -e 'Concurrency.async_with_limit'
