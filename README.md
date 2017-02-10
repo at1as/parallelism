@@ -1,5 +1,12 @@
 # Concurrency and Parallelism Implementations in Common Languages 
 
+### Examples
+
+See USAGE.md above for running examples
+
+
+### Description
+
 *Disclaimer*: This is a work in progress, and represents what I've learned so far. I'm sure I'm wrong about some of this. PRs or Comments welcome (and encouraged!!).
 
 
