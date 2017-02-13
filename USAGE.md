@@ -35,3 +35,9 @@ $ elixir -r parallelism_elixir.ex -e 'Concurrency.async_lazy'
 $ elixir -r parallelism_elixir.ex -e 'Concurrency.sync'
 ```
 
+### Rust
+
+Bulit on rust 1.15.1 on MacOS 10.10. To compile and run: 
+
+`$ rustc parallelism_rust.rc && ./parallelism_rust `
+
